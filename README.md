@@ -13,12 +13,9 @@ npm run dev
 open `http://localhost:5173`
 
 # Preguntas
-## 1. Archivo de manifiesto
-Ver `vite.config.ts`
 
-## 2. Registro de service worker
-Se está usando el plugin vite para pwa
+## 1. Almacenamiento web
+Se puede ver uso de LocalStorage en `lib/models/appointments/index.js`
 
-## 3. Estrategias de almacenamiento cache
-
-## 4. Pruebas de funcioanmiento offline y validación con Lighthouse
+## 2. Camara y localizacion
+Agrega componentes `camera.jsx` y `location.jsx` en `views/contact/location.jsx` y `views/contact/camera.jsx` que se muestran en la vista de contacto.
